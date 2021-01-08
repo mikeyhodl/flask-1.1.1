@@ -33,7 +33,7 @@ def pet(pet_type, pet_id):
     
     return f''' 
     <h1>{pet['name']}</h1>
-    <h4>Right down it's an photo of him</h4>
+    <h4>Right down it's a photo of him</h4>
     <img src="{pet['url']}" />
     <p>{pet['description']}</p>
     <ul>
@@ -41,3 +41,12 @@ def pet(pet_type, pet_id):
       <li>Breed: {pet['breed']}</li>
     </ul>
     '''
+
+
+
+
+
+
+
+
+  
